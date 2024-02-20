@@ -1,0 +1,212 @@
+.servicos {
+   width: 1000px;
+   margin: 0 auto;
+   padding: 40px;
+
+}
+
+section {
+   background-color: #ffffffb0;
+}
+
+
+body {
+   background-image: url("img/aviao.jpg");
+   background-size: cover;
+}
+
+.imagem img {
+   position: relative;
+   width: 100%;
+   height: 50%;
+   margin-top: 50px;
+}
+
+.servicos li {
+   display: inline-block;
+   text-align: center;
+   width: 50%;
+   vertical-align: top;
+   margin: 0 5%;
+   padding: 20px 20px;
+   box-sizing: border-box;
+}
+
+.caixa {
+   position: relative;
+   width: 1400px;
+   margin: 0 auto;
+}
+
+header {
+   background-color: #8100f9;
+   padding: 20px 0px;
+}
+
+nav {
+   position: absolute;
+   top: 100px;
+   right: 0;
+
+}
+
+nav li {
+   display: inline-block;
+   margin: 0 15px 0 10px;
+}
+
+nav a {
+   /* aqui estou transformando o texto para maiusculo, tirando a decoracao do texto, colocando em negrito com 22 de tamanho na fonte e na cor preta */
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 22px;
+   color: black;
+}
+
+nav a:hover {
+   color: rgb(123, 0, 255);
+   text-decoration: underline;
+}
+
+.servicos li {
+   display: inline-block;
+   text-align: center;
+   width: 40%;
+   vertical-align: auto;
+   /*  */
+   margin: 0 1.5%;
+   /* adiciona uma margem */
+   padding: 40px 60px;
+   /* adiciona um espaço ao redor do conteúdo */
+   box-sizing: border-box;
+   /* adiciona uma borda ao redor do conteúdo */
+   border: 5px solid #000000;
+   /* personaliza a borda ao redor do conteúdo */
+   border-radius: 10px;
+   /* adiciona um arredondamento ás bordas da caixa */
+
+}
+
+.servicos li:hover {
+   border-color: #aa00ff;
+   /* define a cor da borda ao passar o mouse me cima */
+
+}
+
+.servicos li:hover h2 {
+   font-size: 30px;
+   /* define o tamanho da fonte ao passar o mouse em cima */
+   text-decoration: underline;
+   color: #8100f9;
+}
+
+.servicos h2 {
+   margin-bottom: 15px;
+   font-size: 30px;
+   /* define o tamanho da fonte */
+   font-weight: bold;
+   /* define o texto para negrito */
+}
+
+.descricao-servico {
+   font-size: 18px;
+   /* define o tamanho da fonte */
+}
+
+.preco-servico {
+   font-size: 32px;
+   /* define o tamanho da fonte */
+   font-weight: bold;
+   /* define o texto para negrito */
+   margin-top: 15px;
+   /* define o tamanho da margem */
+}
+
+footer {
+   text-align: center;
+   background-color: #8100f9;
+   padding: 30px 20px;
+}
+
+.copyright {
+   font-size: 13px;
+   color: #ffffff;
+}
+
+.servicos img {
+   width: 250px;
+   height: 200px;
+}
+
+.contato h1 {
+   display: inline-block;
+   text-align: center;
+   width: 40%;
+   vertical-align: auto;
+   /*  */
+   margin: 0%;
+   /* adiciona uma margem */
+   padding: 40px 60px;
+   /* adiciona um espaço ao redor do conteúdo */
+   font-weight: bolder;
+   font-size: xx-large;
+   color: #8100f9;
+}
+
+.contato li {
+   display: inline-block;
+   text-align: left;
+   width: 40%;
+   vertical-align: auto;
+   /*  */
+   margin: 0 10%;
+   /* adiciona uma margem */
+   padding: 20px 300px;
+   /* adiciona um espaço ao redor do conteúdo */
+}
+
+.contato h2 {
+   display: inline-block;
+   text-align: left;
+   width: 100%;
+   vertical-align: auto;
+   /*  */
+   margin: 0%;
+   /* adiciona uma margem */
+   padding: 10px 0px;
+   /* adiciona um espaço ao redor do conteúdo */
+   font-size: x-large;
+   color: #000000;
+}
+
+.contato h3 {
+   display: inline-block;
+   text-align: left;
+   width: 60%;
+   vertical-align: auto;
+   /*  */
+   margin: 0%;
+   /* adiciona uma margem */
+   padding: 30px 40px;
+   /* adiciona um espaço ao redor do conteúdo */
+   font-weight: bold;
+   font-size: large;
+   color: #8100f9;
+}
+
+.negrito {
+   font-weight: bold;
+}
+
+.sobre {
+   display: inline-block;
+   font-size: large;
+   box-sizing: border-box;
+   border: 5px;
+   border-radius: 5px solid;
+}
+
+div {
+   box-sizing: border-box;
+}
